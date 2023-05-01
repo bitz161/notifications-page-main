@@ -1,0 +1,16 @@
+.tabs-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.tabs-unread{
+    background-color: hsl(210, 60%, 98%);
+}
+
+.tab-read{
+    background-color: hsl(0, 0%, 100%);
+}
