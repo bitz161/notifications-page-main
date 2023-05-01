@@ -1,3 +1,3 @@
-<div class="tabs-container tabs-unread">
+<div class="tabs-container" [ngClass]="{'tab-read':!status.isTabRead(statusID)}" (click)="statusChange()">
     <ng-content></ng-content>
 </div>
