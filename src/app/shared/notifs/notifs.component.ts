@@ -16,7 +16,7 @@ ngOnInit(): void {
 }
 
 typeStatusChanged(id:string) {
-  this.status.typeStatus(id)
+  return this.status.typeStatus(id)
 }
 
 }

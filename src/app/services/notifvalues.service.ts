@@ -43,7 +43,7 @@ export class NotifvaluesService {
   typeStatus(id: string) {
     const typenotif = this.typeAction(id);
     const readStatus = this.isTabRead(id);
-  
+    
     if (readStatus === true && typenotif === true) {
       return true;
     }
