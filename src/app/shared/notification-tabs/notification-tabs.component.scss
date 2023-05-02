@@ -8,6 +8,25 @@
     background-color: hsl(210, 60%, 98%);
 }
 
+.tab-unread {
+    position: relative;
+    &::after {
+        content: ""; /* Add content to the pseudo-element */
+        position: absolute; /* Set the pseudo-element position to absolute */
+        top: 50%;
+        right: 3%;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%; /* Make the shape circular */
+        background-color: red; /* Set the background color to red */
+    }
+}
+
 .tab-read{
     background-color: hsl(0, 0%, 100%);
+}
+
+.tab-type {
+    // border: 1px solid black;
+    height: max-content;
 }

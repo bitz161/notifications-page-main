@@ -11,17 +11,16 @@ export class NotificationsComponent implements OnInit {
   constructor(public status:NotifvaluesService) {}
 
   ngOnInit(): void {
-    this.status.register('mark')
-    this.status.register('angela')
-    this.status.register('jacob')
-    this.status.register('rizky')
-    this.status.register('kimberly')
-    this.status.register('nathan')
-    this.status.register('anna')
+    this.status.register('mark','react')
+    this.status.register('angela','follow')
+    this.status.register('jacob','group')
+    this.status.register('rizky','message')
+    this.status.register('kimberly','comment')
+    this.status.register('nathan','react')
+    this.status.register('anna','group')
 
     console.log(this.status)
 }
-
 
 
 

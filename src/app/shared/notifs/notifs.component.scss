@@ -5,16 +5,25 @@
         width: 40px;
         margin-right: 20px;
     }
-    span {
-        font-weight: 800;
-        color:  hsl(224, 21%, 14%);
-        cursor: pointer;
-        &:hover{
-            color:hsl(219, 85%, 26%)
+
+    div {
+       
+       & > span {
+            font-weight: 800;
+            color:  hsl(224, 21%, 14%);
+            cursor: pointer;
+            &:hover{
+                color:hsl(219, 85%, 26%)
+            }
+        }
+        
+       & > p {
+            font-size: 0.9em;
+            margin: 3px 0;
         }
     }
-    p {
-        font-size: 0.9em;
-        margin: 3px 0;
-    }
+}
+
+.message-notif{
+    border: 1px solid black;
 }

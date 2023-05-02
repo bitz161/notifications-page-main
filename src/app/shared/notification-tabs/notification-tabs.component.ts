@@ -18,4 +18,8 @@ statusChange(){
   this.status.readAction(this.statusID)
 }
 
+typeStatusChanged(){
+  this.status.typeStatus(this.statusID)
+}
+
 }
