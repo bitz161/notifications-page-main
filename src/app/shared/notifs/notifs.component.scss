@@ -7,7 +7,7 @@
     }
 
     div {
-       
+        
        & > span {
             font-weight: 800;
             color:  hsl(224, 21%, 14%);
@@ -21,9 +21,23 @@
             font-size: 0.9em;
             margin: 3px 0;
         }
+
+        & > div {
+            margin: 15px;
+            padding: 10px;
+            width: 35rem;
+            overflow: hidden;
+            border: 1px solid hsl(205, 33%, 90%);
+            border-radius: 5px;
+            cursor: pointer;
+           &:hover {
+            background-color: hsl(205, 33%, 90%);
+            color: hsl(224, 21%, 14%);
+           }
+        }
+        .message-notif{
+            height: 90px;
+        }
     }
 }
 
-.message-notif{
-    border: 1px solid black;
-}

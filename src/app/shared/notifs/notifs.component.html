@@ -25,14 +25,12 @@
       <div>
       <span>Rizky Hasanuddin</span> sent you a private message
       <p>5 days ago</p>
-      <div [ngClass]="{'message-notif':typeStatusChanged('rizky')}" >
+      <div [ngClass]="{'message-notif':typeStatusChanged('rizky')}" *ngIf="typeStatusChanged('rizky')">
         Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
+        I'm already having lots of fun and improving my game.
       </div>
     </div>
     </app-notification-tabs>
-    <!-- TODO: Correct the ngClass behavior   -->
-
 
     <app-notification-tabs statusID="kimberly">
       <img src="../../../assets/images//avatar-kimberly-smith.webp" />
