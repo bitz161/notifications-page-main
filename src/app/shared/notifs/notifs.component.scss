@@ -34,9 +34,16 @@
             background-color: hsl(205, 33%, 90%);
             color: hsl(224, 21%, 14%);
            }
+           @media (max-width: 767px) {
+            width: 14rem;
+            margin: 10px;
+           }
         }
         .message-notif{
             height: 90px;
+            @media (max-width: 767px) {
+                height: max-content;
+               }
         }
     }
 }

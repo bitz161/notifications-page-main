@@ -10,4 +10,7 @@
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
+    @media (max-width: 767px) {
+        font-size: 12px;
+      }
 }
